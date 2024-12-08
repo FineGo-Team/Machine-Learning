@@ -1,26 +1,26 @@
 # Categorizing Financial Status
 
-Folder ini berisi file-file terkait model klasifikasi status keuangan berdasarkan data penghasilan, pengeluaran, dan faktor-faktor lainnya. Dataset yang digunakan dalam model ini dibuat dengan data asli dari **Badan Pusat Statistik (BPS)** tentang UMR (Upah Minimum Regional) setiap provinsi di Indonesia pada tahun 2020, yang dikembangkan lebih lanjut menggunakan Python untuk keperluan pelatihan dan pengujian model.
+This folder contains files related to the classification model for financial status based on income, expenses, and other factors. The dataset used for this model was created using authentic data from the **Badan Pusat Statistik (BPS)** (Indonesian Statistics Agency) on the Regional Minimum Wage (UMR) for each province in Indonesia in 2020, further enhanced using Python for training and testing purposes.
 
-## **Isi Folder**
-- `categorizing_financial_health_model.ipynb`: Notebook Jupyter yang berisi kode untuk preprocessing data, pelatihan model, dan evaluasi model klasifikasi status keuangan.
-- `categorizing_financial_health_model.h5`: File model yang telah dilatih dalam format H5, digunakan untuk deployment atau inferensi.
-- `categorizing_financial_health_model.keras`: File model yang disimpan dalam format Keras.
-- `categorizing_financial_health_model.py`: Script Python mandiri untuk menjalankan pelatihan dan evaluasi model.
-- `financial_data_indonesia.csv`: Dataset hasil pengembangan yang digunakan untuk pelatihan model.
+## **Folder Contents**
+- `categorizing_financial_health_model.ipynb`: A Jupyter Notebook containing the code for data preprocessing, model training, and evaluation of the financial status classification model.
+- `categorizing_financial_health_model.h5`: A trained model file in H5 format, ready for deployment or inference.
+- `categorizing_financial_health_model.keras`: A trained model file saved in Keras format.
+- `categorizing_financial_health_model.py`: A standalone Python script for training and evaluating the model.
+- `financial_data_indonesia.csv`: A developed dataset used for training the model.
 
-## **Tentang Dataset**
-Dataset yang digunakan dalam proyek ini adalah hasil pengembangan dari data asli UMR (Upah Minimum Regional) setiap provinsi di Indonesia pada tahun 2020 yang diterbitkan oleh Badan Pusat Statistik (BPS).  
-- **Sumber asli:** Data UMR 2020 dari BPS.  
-- **Proses pengembangan:**  
-  Dataset ini dibuat dengan menambahkan beberapa kolom baru menggunakan Python, seperti pengeluaran untuk kebutuhan pokok (makanan, transportasi, perumahan), tagihan bulanan (air, listrik, internet), utang, tabungan, serta status keuangan berdasarkan penghitungan rasio pendapatan dan pengeluaran.
+## **About the Dataset**
+The dataset used in this project was developed based on authentic data on the Regional Minimum Wage (UMR) for each province in Indonesia in 2020, published by the **Badan Pusat Statistik (BPS)**.  
+- **Original source:** UMR 2020 data from BPS.  
+- **Development process:**  
+  The dataset was enhanced using Python by adding several new columns, such as expenses for basic needs (food, transportation, housing), monthly bills (water, electricity, internet), debts, savings, and financial status determined based on the ratio of income to expenses.
 
-Dataset ini berfungsi sebagai data simulasi untuk pelatihan model klasifikasi status keuangan menjadi tiga kategori: **sehat**, **kurang sehat**, dan **tidak sehat**.
+This dataset serves as simulated data for training the classification model, categorizing financial health into three categories: **Sehat**, **Kurang Sehat**, and **Tidak Sehat**.
 
-## **Penggunaan**
-1. Jalankan file `categorizing_financial_health_model.ipynb` untuk melatih dan mengevaluasi model.
-2. Gunakan file model yang telah dilatih (`.h5` atau `.keras`) untuk deployment.
-3. Dataset (`financial_data_indonesia.csv`) dapat digunakan untuk eksperimen lebih lanjut atau validasi ulang model.
+## **Usage**
+1. Run the `categorizing_financial_health_model.ipynb` file to train and evaluate the model.
+2. Use the trained model files (`.h5` or `.keras`) for deployment.
+3. The dataset (`financial_data_indonesia.csv`) can be used for further experimentation or model validation.
 
-## **Lisensi**
-Dataset ini dibuat dengan tujuan pembelajaran dan pengembangan model machine learning. Data asli berasal dari Badan Pusat Statistik (BPS), dan pengembangan lebih lanjut dilakukan secara independen. Pastikan untuk menghormati hak cipta dan kebijakan data saat menggunakan informasi ini.
+## **License**
+This dataset was created for educational and machine learning model development purposes. The original data comes from the **Badan Pusat Statistik (BPS)**, and further development was conducted independently. Please respect copyright and data policies when using this information.
