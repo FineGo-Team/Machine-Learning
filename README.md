@@ -1,21 +1,21 @@
 ## MACHINE LEARNING
 
-## Data Understanding
+Data Understanding
 * Analyze & interpret the dataset.
 
-## Data Preparation
+Data Preparation
 * Clean, encode, and scale the data.
 
-## Splitting Data
+Splitting Data
 * Divide into train, validation, and test sets.
 
-## Model Development
+Model Development
 * **Model Classification for Financial Status**
 * **Model Prediction for saving rate**
 
-## Training & Validation
+Training & Validation
 
-## Model Evaluation
+Model Evaluation
 * Test accuracy and refine the model.
 
-## Deployment Preparation & Integration
+Deployment Preparation & Integration
