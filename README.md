@@ -30,3 +30,6 @@
 ### Deployment Preparation & Integration
 * Prepare the models for deployment, such as packaging them into a deployable format.
 * Integrate the models into a production environment.
+
+## Tech Stack
+* TensorFlow
